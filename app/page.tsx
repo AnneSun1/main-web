@@ -1,5 +1,7 @@
-import { redirect } from "next/navigation"
+"use client"
 
-export default function HomePage() {
-  redirect("/dashboard")
+import { ThemeProvider } from "../components/theme-provider"
+
+export default function SyntheticV0PageForDeployment() {
+  return <ThemeProvider />
 }

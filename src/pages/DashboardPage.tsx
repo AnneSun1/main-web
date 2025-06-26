@@ -3,7 +3,7 @@ import { AppSidebar } from "@/components/layout/app-sidebar"
 import { SidebarInset } from "@/components/ui/sidebar"
 import { DashboardHeader } from "@/components/layout/dashboard-header"
 
-export default function DashboardPage() {
+export function DashboardPage() {
   return (
     <>
       <AppSidebar />
