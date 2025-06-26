@@ -1,7 +1,5 @@
-"use client"
+import { redirect } from "next/navigation"
 
-import  from "../vite.config"
-
-export default function SyntheticV0PageForDeployment() {
-  return < />
+export default function HomePage() {
+  redirect("/dashboard")
 }
